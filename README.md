@@ -74,7 +74,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 p-4 font-sans flex flex-col items-center">
       <header className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6 mb-8">
         <h1 className="text-4xl font-bold text-center text-indigo-700 mb-6">
-          \[Your Studio Name] Fitness App
+          Stridefast Performance Fitness App
         </h1>
         <nav className="flex flex-wrap justify-center gap-4">
           <Button onClick={() => setCurrentView('membership')} isActive={currentView === 'membership'}>
@@ -94,7 +94,7 @@ function App() {
       </main>
 
       <footer className="w-full max-w-4xl text-center text-gray-600 text-sm mt-8 p-4">
-        &copy; {new Date().getFullYear()} \[Your Studio Name]. All rights reserved.
+        &copy; {new Date().getFullYear()} Stridefast Performance. All rights reserved.
       </footer>
     </div>
   );
